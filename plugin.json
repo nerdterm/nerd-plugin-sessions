@@ -1,0 +1,10 @@
+{
+  "name": "sessions",
+  "title": "Sessions",
+  "version": "1.0.0",
+  "min_nerd": "0.8.0",
+  "exec": { "command": "sh", "args": ["plugin.sh"] },
+  "events": ["pane_opened", "pane_cwd", "panel_opened", "panel_item", "preview_request"],
+  "previews": [{ "extensions": ["jsonl", "ndjson"] }],
+  "panels": [{ "id": "sessions", "title": "Sessions", "where": "pane" }]
+}

@@ -1,0 +1,9 @@
+{"type":"session_meta","payload":{"cwd":"/work/app/sub","git":{"branch":"main"},"id":"c1"}}
+{"type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"<environment_context>cwd</environment_context>"}]}}
+{"type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"List the tests"}]}}
+{"type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":[\"ls\",\"tests\"]}"}}
+{"type":"response_item","payload":{"type":"function_call_output","output":"a.rs\nb.rs"}}
+{"type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Two tests: a.rs and b.rs."}]}}
+{"type":"event_msg","payload":{"type":"token_count"}}
+{"type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","input":"*** Begin Patch\n*** Update File: a.rs"}}
+{"type":"response_item","payload":{"type":"custom_tool_call_output","output":[{"type":"input_text","text":"Done: a.rs\nmore"}]}}
