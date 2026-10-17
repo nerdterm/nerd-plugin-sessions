@@ -1,7 +1,19 @@
-# sessions
+<div align="center">
 
-A plugin for [nerd](https://github.com/nerdterm/nerd): read your Claude Code and Codex sessions without leaving the
-terminal.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://nerdterm.dev/brand/nerd-logo-dark.svg">
+  <img src="https://nerdterm.dev/brand/nerd-logo-light.svg" alt="nerd" width="240">
+</picture>
+
+# Sessions
+
+**Read your Claude Code and Codex sessions without leaving the terminal.**
+
+[![official nerd plugin](https://img.shields.io/badge/nerd-official_plugin-9fd08a)](https://nerdterm.dev/#/plugin/sessions) [![License: MIT](https://img.shields.io/badge/license-MIT-9fd08a)](LICENSE)
+
+[Install](#install) · [In the catalog](https://nerdterm.dev/#/plugin/sessions) · [nerd](https://github.com/nerdterm/nerd)
+
+</div>
 
 - **Sessions…** in a pane's menu lists the sessions started in that pane's folder or below it, newest first, with
   the agent, the git branch, how long ago and its size. Click one to read it in the same panel; **Back to the sessions**
