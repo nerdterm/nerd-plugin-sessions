@@ -9,9 +9,9 @@
 
 **Read your Claude Code and Codex sessions without leaving the terminal.**
 
-[![official nerd plugin](https://img.shields.io/badge/nerd-official_plugin-9fd08a)](https://nerdterm.dev/#/plugin/sessions) [![License: MIT](https://img.shields.io/badge/license-MIT-9fd08a)](LICENSE)
+[![official nerd plugin](https://img.shields.io/badge/nerd-official_plugin-9fd08a)](https://nerdterm.dev/plugins/sessions/) [![License: MIT](https://img.shields.io/badge/license-MIT-9fd08a)](LICENSE)
 
-[Install](#install) · [In the catalog](https://nerdterm.dev/#/plugin/sessions) · [nerd](https://github.com/nerdterm/nerd)
+[Install](#install) · [In the catalog](https://nerdterm.dev/plugins/sessions/) · [nerd](https://github.com/nerdterm/nerd)
 
 </div>
 
